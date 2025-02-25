@@ -68,8 +68,8 @@ export default function Home() {
   useEffect(() => {
     gsap.fromTo(
       ".image-container",
-      { rotationY: -90, opacity: 0 },
-      { rotationY: 0, opacity: 1, duration: 0.5 }
+      { opacity: 0 },
+      { opacity: 1, duration: 0.5 }
     );
   }, [currentImage]);
 
