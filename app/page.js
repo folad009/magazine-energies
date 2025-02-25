@@ -69,7 +69,7 @@ export default function Home() {
     gsap.fromTo(
       ".image-container",
       { opacity: 0 },
-      { opacity: 1 }
+      { opacity: 1,  delay: 0.2 }
     );
   }, [currentImage]);
 
